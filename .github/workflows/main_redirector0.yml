@@ -53,4 +53,4 @@ jobs:
           app-name: "redirector0"
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAF603B391B346A8AA3822432BFDDD69 }}
-          package: dist/
+          package: .
